@@ -2,8 +2,8 @@ body   {
     width: 1920px;
     height: 1280px;
     background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 .background-2 {
     width: 1920px;
     height: 1280px;
@@ -145,6 +145,160 @@ body   {
 
 /* Right side */
 
+.money {
+    border-radius: 40px;
+    border: 5px solid #58B3F8;
+    background: #FFF;
+}
 
+.money1 {
+    font-size: 28px;
+    color: #000;
+}
+
+.cash0  {
+    color: #A7A7A9;
+    font-size: 70px;
+    font-family: Inter;
+}
+
+.botton {
+    border-radius: 20px;
+    border: 3px solid #E5E5E5;
+    background: #FFF;
+    width: 150px;
+    height: 60px;
+}
+
+.all-buttons {
+    flex-direction: row;
+}
+
+.button {
+    top:50%;
+    background-color: #fff;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    border: 3px solid #E5E5E5;
+    border-radius:20px;
+    padding: 16px 41px 16px 41px ;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+.button:hover {
+    background-color:#955FBA;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-inf {
+        margin-top: 16px ;
+}
+
+.inf {
+    border-radius: 15px;
+    border: 2px solid #ACACAC;
+    background: #FFF;
+    width: 492px;
+    height: 81px;
+    flex-shrink: 0;
+
+    color: #878787;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 23px;
+    padding-left: 37px;
+    margin-top: 24px;
+}
+
+/* Mono Pay */
+.button-2 {
+    top:50%;
+    width: 499px;
+    height: 69px;
+    flex-shrink: 0;
+    background-color: #000;
+    font-family: Roboto;
+    border: 3px solid #E5E5E5;
+    border-radius:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+.mono {
+    color: #FFF;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 232px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.pay-1 {
+    background-color: #ba3636;
+    color: #000;
+    border-radius: 10px;
+    width: 75px;
+    height: 37px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.monopay {
+    flex-direction: row;
+
+}
+
+/* Google Pay */
+
+.google-pay {
+    top:50%;
+    width: 499px;
+    height: 69px;
+    flex-shrink: 0;
+    background-color: #000;
+    font-family: Roboto;
+    border: 3px solid #E5E5E5;
+    border-radius:15px;
+    min-height:30px; 
+    min-width: 120px;
+
+}
+
+.google {
+
+}
+
+.pay-3 {
+    color: #b73838;
+    font-family: Roboto;
+    font-size: 37px;
+}
+
+.paying {
+    flex-direction: row;
+}
+
+
+.card {
+    width: 32px;
+    height: 27px;
+    flex-shrink: 0;
+}
+
+.text-card {
+    color: #E9625F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 /* Bottom */
 

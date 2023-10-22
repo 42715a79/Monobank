@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monobank</title>
     <link rel="stylesheet" href="styles.css">
@@ -32,43 +33,41 @@
                 <div class="right-side">
                     <!-- Сума поповнення -->
                     <div class="money">
-                        <h3>Сума поповнення</h3>
-                        <h1>0 ₴</h1>
+                        <h3 class="money1">Сума поповнення</h3>
+                        <h1 class="cash0">0 ₴</h1>
                         <!-- Bottons -->
-                        <div class="botton-1">
-                            <h3>+100₴</h3>
-                        </div>
-                        <div class="botton-2">
-                            <h3>+500₴</h3>
-                        </div>
-                        <div class="botton-3">
-                            <h3>+1000₴</h3>
+                        <div class="all-buttons">
+                            <button type="button" class="button"> +100₴ </button>
+                            <button type="button" class="button"> +500₴ </button>
+                            <button type="button" class="button"> +1000₴ </button>
                         </div>
                     </div>
                     <!-- Поля заповнення -->
-                    <div>
-                        <div class="name">
-                            <p>Ваше ім’я (необов’язково)</p>
-                        </div>
-                        <div class="Comment">
-                            <p>Коментар (необов’язково)</p>
-                        </div>
+                    <div class="form-inf">
+                        <form action="" >
+                            <input class="inf" type="text" id="name" placeholder="Ваше ім’я (необов’язково)">
+                            <input class="inf" type="text" id="name" placeholder="Коментар (необов’язково)">
+                        </form>
                     </div>
                     <!-- Оплата -->
                     <div class="pay">
-                        <div class="mono">
-                            <h2>mono</h2> 
-                            <h2>pay</h2>
-                        </div>
-                        <div class="google">
-                            <img src="img/g-pay-img.png" alt="google pay"> 
-                            <h2>pay</h2>
-                        </div>
+                        <button type="button" class="button-2">
+                            <div class="monopay">
+                                <h2 class="mono">mono </h2> 
+                                <h2 class="pay-1">Pay</h2>  
+                            </div> 
+                        </button>
+                        <button type="button" class="button-3">
+                            <div class="google-pay">
+                                <img class="google" src="img/g-pay-img.png" alt="google pay"> 
+                                <h2 class="pay-3">Pay</h2>  
+                            </div> 
+                        </button>
                     </div>
                     <!-- Оплата картою -->
-                    <div>
-                        <img src="img/card.png" alt="card">
-                        <h6>Оплатити карткою</h6>
+                    <div class="paying">
+                        <img class="card" src="img/card.png" alt="card">
+                        <h6 class="text-card">Оплатити карткою</h6>
                     </div>
                 </div>
             </div>
