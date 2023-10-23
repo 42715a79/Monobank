@@ -7,6 +7,7 @@ body   {
 .background-2 {
     width: 1920px;
     height: 1280px;
+    background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
 }
 
 .top {
@@ -35,6 +36,14 @@ body   {
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #FFF;
+}
+
+.bottom {
+    padding: 146px 172px 148px 172px ;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 .left-bottom {
@@ -145,7 +154,9 @@ body   {
 
 /* Right side */
 
+
 .money {
+    margin: 75px 110px 0px 110px;
     border-radius: 40px;
     border: 5px solid #58B3F8;
     background: #FFF;
@@ -162,6 +173,12 @@ body   {
     font-family: Inter;
 }
 
+.work-pew {
+    color: #000;
+    width: 1px;
+    height: 90px;
+}
+
 .botton {
     border-radius: 20px;
     border: 3px solid #E5E5E5;
@@ -172,6 +189,7 @@ body   {
 
 .all-buttons {
     flex-direction: row;
+    
 }
 
 .button {
@@ -197,6 +215,7 @@ body   {
 
 .form-inf {
         margin-top: 16px ;
+
 }
 
 .inf {
@@ -213,10 +232,12 @@ body   {
     font-size: 23px;
     padding-left: 37px;
     margin-top: 24px;
+
 }
 
 /* Mono Pay */
 .button-2 {
+    cursor: pointer;
     top:50%;
     width: 499px;
     height: 69px;
@@ -227,6 +248,8 @@ body   {
     border-radius:15px;
     min-height:30px; 
     min-width: 120px;
+    text-align: center;
+    margin-top: 22px;
 }
 
 .mono {
@@ -238,9 +261,10 @@ body   {
     width: 232px;
     height: 40px;
     flex-shrink: 0;
+    text-align: center;
 }
 .pay-1 {
-    background-color: #ba3636;
+    background-color: #ffffff;
     color: #000;
     border-radius: 10px;
     width: 75px;
@@ -256,22 +280,9 @@ body   {
 
 /* Google Pay */
 
-.google-pay {
-    top:50%;
-    width: 499px;
-    height: 69px;
-    flex-shrink: 0;
-    background-color: #000;
-    font-family: Roboto;
-    border: 3px solid #E5E5E5;
-    border-radius:15px;
-    min-height:30px; 
-    min-width: 120px;
-
-}
-
 .google {
-
+    display: flex;
+    text-align: center;
 }
 
 .pay-3 {
@@ -301,4 +312,61 @@ body   {
     line-height: normal;
 }
 /* Bottom */
+
+.left-bottom {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 400px;
+    text-align: left;
+}
+
+.right-bottom {
+    
+}
+
+
+
+.button-3 {
+    flex-direction: row;
+    top:50%;
+
+    border: 1px solid #FFF;
+    border-radius:20px;
+    background-color:transparent ;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+
+
+    width: 275px;
+    height: 55px;
+    flex-shrink: 0;
+    min-height:30px; 
+    min-width: 120px;
+    cursor: pointer;
+    padding: 14px 19px;
+    justify-content: right;
+}
+
+.img-trophy {
+    color: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    mix-blend-mode: color-dodge;
+    width: 28px;
+    height: 27px;
+    flex-shrink: 0;
+}
+
+.img-consol {
+    color: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    mix-blend-mode: color-dodge;
+    width: 32px;
+    height: 26px;
+    flex-shrink: 0;
+}
 
