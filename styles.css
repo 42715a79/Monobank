@@ -1,13 +1,14 @@
 body   {
-    width: 1920px;
+    width: 100wh;
     height: 1280px;
     background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
 }
 
 .background-2 {
-    width: 1920px;
-    height: 1280px;
-    background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
+    /* width: 1920px; */
+    /* height: 1280px; */
+    /* background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
+ */
 }
 
 .top {
@@ -189,7 +190,7 @@ body   {
 
 .all-buttons {
     flex-direction: row;
-    
+    padding-bottom: 40px ;
 }
 
 .button {
@@ -243,8 +244,7 @@ body   {
     height: 69px;
     flex-shrink: 0;
     background-color: #000;
-    font-family: Roboto;
-    border: 3px solid #E5E5E5;
+ 
     border-radius:15px;
     min-height:30px; 
     min-width: 120px;
