@@ -4,13 +4,6 @@ body   {
     background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
 }
 
-.background-2 {
-    /* width: 1920px; */
-    /* height: 1280px; */
-    /* background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
- */
-}
-
 .top {
     padding: 146px 172px 148px 172px ;
     display: flex;
@@ -106,16 +99,12 @@ body   {
 }
 
 .already-done {
-   
+    flex-direction: row;
     width: 265px;
     height: 103px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFF;
-}
-
-.left-done{
-
 }
 
 .box {
@@ -125,9 +114,6 @@ body   {
     flex-shrink: 0;
 }
 
-.right-done{
-
-}
 .done {
     width: 193px;
     height: 30px;
@@ -258,10 +244,11 @@ body   {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 232px;
+    /* width: 232px; */
     height: 40px;
     flex-shrink: 0;
     text-align: center;
+    margin: 18px;
 }
 .pay-1 {
     background-color: #ffffff;
@@ -271,28 +258,37 @@ body   {
     height: 37px;
     flex-shrink: 0;
     text-align: center;
+    padding: 4px 10px ;
 }
 
-.monopay {
-    flex-direction: row;
-
-}
 
 /* Google Pay */
 
+.google-pay {
+
+} 
 .google {
     display: flex;
     text-align: center;
 }
 
 .pay-3 {
-    color: #b73838;
+    color: #ffffff;
     font-family: Roboto;
     font-size: 37px;
+    display: flex;
+    margin: 0;
 }
 
 .paying {
     flex-direction: row;
+    margin-top: 50 ;
+}
+
+.line   {
+    width: 495px;
+    height: 1px;
+    margin-top: 40px;
 }
 
 
